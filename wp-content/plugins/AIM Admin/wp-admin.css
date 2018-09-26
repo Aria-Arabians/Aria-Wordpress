@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+
+body {
+	font-family: 'Montserrat', sans-serif !important;
+	letter-spacing: .5px;
+}
+
+.wrap {
+    width: calc(100vw - 260px);
+}
+
+#adminmenu .menu-icon-horse div.wp-menu-image img,
+#adminmenu .menu-icon-team div.wp-menu-image img,
+#adminmenu .menu-icon-partners div.wp-menu-image img,
+#adminmenu .menu-icon-services div.wp-menu-image img,
+#adminmenu .menu-icon-news div.wp-menu-image img,
+#adminmenu .menu-icon-post div.wp-menu-image img {
+	display: none;
+}
+
+#adminmenu .menu-icon-horse div.wp-menu-image::after {
+    font-family: 'dashicons';
+    font-size: 20px;
+    content: '\f533';
+
+    position: relative;
+    top: 7px;
+
+    opacity: 0.7;
+}
+
+#adminmenu .menu-icon-team div.wp-menu-image::before {
+    font-family: 'dashicons';
+    font-size: 24px;
+    content: '\f307';
+
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+#adminmenu .menu-icon-partners div.wp-menu-image::before {
+    font-family: 'dashicons';
+    font-size: 24px;
+    content: '\f338';
+    
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+#adminmenu .menu-icon-services div.wp-menu-image::before {
+    font-family: 'dashicons';
+    font-size: 24px;
+    content: '\f313';
+    
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+#adminmenu .menu-icon-news div.wp-menu-image::before {
+    font-family: 'dashicons';
+    font-size: 20px;
+    content: '\f123';
+    
+    position: relative;
+    top: 0px;
+}
+
+#adminmenu .menu-icon-post div.wp-menu-image::before {
+    font-family: 'dashicons';
+    font-size: 24px;
+    content: '\f119';
+    
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+#toplevel_page_cptui_main_menu {
+	display: none;
+}
+
+#settings-divider {
+    font-size: 11px !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	color: #667a8e !important;
+	cursor: default;
+}
+
+#settings-divider:hover {
+	color: #667a8e !important;
+}
+
+.update-plugins {
+	display: none!important;
+}
+
+#adminmenu div.wp-menu-image {
+	margin-right: 10px
+}
+
+.subsubsub {
+	display: none;
+}
+
+.tablenav.top .tablenav-pages {
+	display: none;
+}
+
+.tablenav.top {
+    margin-left: 280px;
+    position: absolute;
+    top: 64px;
+}
+
+.tablenav.bottom .bulkactions {
+	display: none;
+}
+
+p.search-box {
+    position: absolute;
+    right: 20px;
+    top: 73px;
+}
+
+#post-search-input {
+	width: 200px !important;
+	margin-right: 5px;
+}
+
+table.fixed {
+    margin-top: 40px;
+}
+
+#featured-image {
+	display: none;
+}
+
+#featured_image,
+th.column-featured_image {
+	color:  #fff !important;
+	width: 50px;
+}
+
+#author,
+#date {
+	width: 200px;
+}
+
+.date.column-date {
+	color: #737373;
+	padding-top: 20px !important;
+    text-transform: uppercase;
+}
+
+.date.column-date abbr {
+	text-decoration: none;
+}
+
+.featured_image>div {
+	border:  none !important;
+}
+.featured_image>div>img {
+	border-radius: 20px;
+}
+
+.tablenav .actions {
+	padding-right: 0;
+}
+
+.tablenav .actions select {
+	max-width: 160px;
+	color: #6d6d6d;
+
+	transition: .1s color;
+}
+
+.tablenav .actions select:hover {
+	color: #000;
+}
+
+.searchbox::after,
+div.actions::after {
+	font-family: "dashicons";
+    font-size: 14px;
+    content: '\f347';
+    color: #6d6d6d;
+
+    pointer-events: none;
+
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+
+    position: relative;
+    top: 11px;
+    left: -132px;
+}
+
+#doaction,
+#post-query-submit,
+#search-submit {
+    padding: 10px 20px;
+    height: 36px;
+
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+
+    border-radius: 30px;
+    border: 1px solid #23282d;
+    background: rgb(33, 45, 57);
+    box-shadow: none;
+
+    transition: .1s background,
+				.1s border-color;
+}
+
+#doaction:hover,
+#post-query-submit:hover,
+#search-submit:hover {
+	background: #f7bc58;
+	border-color: #f7bc58;
+}
+
+.row-actions .inline {
+	display: none;
+}
+
+.row-title {
+	font-weight: 500;
+	/*color: #80abde;*/
+}
+
+.widefat td,
+.widefat th.check-column {
+	padding-top: 30px !important;
+}
+
+.widefat td.featured_image {
+	padding: 18px 10px 8px 10px !important;
+}
+
+.widefat thead td.check-column,
+.widefat tfoot td.check-column {
+	padding: 30px 5px !important;
+}
+
+#wpwrap {
+	background: #FFFFFF;
+}
+
+#wpadminbar {
+	height: 40px;
+	padding-top: 6px;
+	background: #000;
+}
+
+#wpadminbar *,
+#adminmenu * {
+	/*font-size: 14px !important;*/
+	font-weight: 500;
+}
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+	width: 220px;
+	background: #212d39;
+
+
+}
+
+.wp-submenu.wp-submenu-wrap {
+	display: none;
+}
+
+.opensub .wp-submenu.wp-submenu-wrap {
+    z-index: 999999 !important;
+}
+
+#wpcontent,
+#wpfooter {
+	margin-left: 220px;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+	background: #75994f;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu {
+    background: #2c3a48;
+    margin-left: 50px;
+    width: 170px !important;
+}
+
+#adminmenu {
+	padding-top: 60px;
+}
+
+#adminmenu>li {
+	padding: 5px 0;
+}
+
+#adminmenu li>a {
+	padding: 0 0 0 20px !important;
+}
+
+ul.wp-submenu.wp-submenu-wrap {
+	width: 220px !important;
+}
+
+#adminmenu .wp-submenu li {
+    padding: 10px 0 10px 16px;
+}
+
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+	background: #212d39 !important;
+}
+
+#collapse-menu {
+	display: none;
+}
+
+
+#wpbody {
+	padding-top: 50px;
+}
+
+#wp-content-media-buttons {
+    float: left;
+    position: absolute;
+    right: 2px;
+    top: 74px;
+}
+
+.postbox {
+	border: none;
+	box-shadow: none;
+}
+
+#save-action .spinner {
+	display: none;
+}
+
+#pageparentdiv .inside {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.misc-pub-section.misc-pub-revisions,
+.post-attributes-label-wrapper,
+#pageparentdiv .inside p:last-child {
+	display: none;
+}
+
+.post-attributes-label::after {
+	font-family: "dashicons";
+    font-size: 14px;
+    content: '\f347';
+    color: #6d6d6d;
+
+    pointer-events: none;
+
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+
+    position: relative;
+    top: -28px;
+    left: 96px;
+}

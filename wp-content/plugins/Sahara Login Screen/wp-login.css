@@ -1,0 +1,96 @@
+body {
+    background: #FCFAF6;
+}
+.login h1 a {
+    background-image: none,url('http://www.sahara.adwtt.com/wp-content/themes/horse/images/sahara-homepage-logo.png');
+    -webkit-background-size: 250px;
+    background-size: 250px;
+    height: 124px;
+    width: 250px;
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 28px;
+    border: 1px solid #D8D8D8;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 20px;
+    background: none;
+}   
+    .login label {
+        color: #1D223D;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .login form .input, .login input[type=text] {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .login form .input,
+    .login input[type=text] {
+        background: #fbfbfb !important;
+        border-radius: 20px;
+        padding: 5px 20px;
+        border: 1px solid rgba(0,0,0,0.3);
+        box-shadow: none;
+    }
+
+    input[type=checkbox] {
+        border-radius: 4px;
+    }
+
+    .login form input[type="submit"],
+    .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+        display: inline-block;
+        width: 100%;
+        margin: 10px 0 0 0;
+        border-radius: 20px;
+        border: 1px solid #d8d8d8;
+        box-shadow: none;
+        text-shadow: none;
+        background: #370C07;
+        height: 40px;
+        font-size: 16px;
+        letter-spacing: none;
+        padding-top: 3px;
+        text-transform: uppercase;
+        box-shadow: 0 0 black;
+    }
+        .login form input[type="submit"]:hover {
+            background: #fff;
+            color: #390904;
+            border-color: #390904;
+        }
+
+        .login form input[type="submit"]:active {
+            background: #390904;
+            color: #fff;
+        }
+
+    .login #backtoblog a,
+    .login #nav a {
+        text-decoration: none;
+        color: #555d66;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+    }
+        .login #nav,
+        .login #backtoblog {
+            padding: 0;
+            text-align: center;
+        }
+
+        .login #nav {
+            width: 100%;
+        }
+
+        .login #backtoblog a:hover,
+        .login #nav a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
