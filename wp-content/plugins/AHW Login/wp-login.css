@@ -1,12 +1,13 @@
-body {
-    background: #FCFAF6;
+.login #login_error,
+.login .message,
+.login .success {
+    border-left: 4px solid #444;
 }
 .login h1 a {
-    background-image: none,url('http://www.sahara.adwtt.com/wp-content/themes/horse/images/sahara-homepage-logo.png');
-    -webkit-background-size: 250px;
-    background-size: 250px;
-    height: 124px;
-    width: 250px;
+    background-image: url('ahw-icon.png');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
 }
 
 .login form {
@@ -14,13 +15,12 @@ body {
     margin-left: 0;
     padding: 26px 24px 28px;
     border: 1px solid #D8D8D8;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 20px;
-    background: none;
-}   
+    background: #e76146;
+}
     .login label {
-        color: #1D223D;
+        color: #444;
         font-size: 14px;
         font-weight: 500;
     }
@@ -32,7 +32,7 @@ body {
 
     .login form .input,
     .login input[type=text] {
-        background: #fbfbfb !important;
+        background: #fff !important;
         border-radius: 20px;
         padding: 5px 20px;
         border: 1px solid rgba(0,0,0,0.3);
@@ -44,7 +44,8 @@ body {
     }
 
     .login form input[type="submit"],
-    .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    .wp-core-ui .button-group.button-large .button,
+    .wp-core-ui .button.button-large {
         display: inline-block;
         width: 100%;
         margin: 10px 0 0 0;
@@ -52,7 +53,7 @@ body {
         border: 1px solid #d8d8d8;
         box-shadow: none;
         text-shadow: none;
-        background: #370C07;
+        background: #fff;
         height: 40px;
         font-size: 16px;
         letter-spacing: none;
@@ -74,8 +75,7 @@ body {
     .login #backtoblog a,
     .login #nav a {
         text-decoration: none;
-        color: #555d66;
-        color: #fff;
+        color: #444;
         text-align: center;
         width: 100%;
     }
@@ -91,6 +91,6 @@ body {
 
         .login #backtoblog a:hover,
         .login #nav a:hover {
-            color: #fff;
+            color: #444;
             text-decoration: underline;
         }

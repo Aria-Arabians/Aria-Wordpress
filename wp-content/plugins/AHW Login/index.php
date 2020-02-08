@@ -1,12 +1,12 @@
 <?php
 
 /*
-Plugin Name: Sahara Scottsdale Login Page
+Plugin Name: AHW Custom Login Page
 Plugin URI: n/a
-Description: Custom Sahara Scottsdale login page
-Author: Andrew Farr
-Version: 1.0
-Author URI: http://adwtt.com
+Description: Custom AHW  login page
+Author: Arabian Horse World
+Version: 2.0
+Author URI: http://arabianhorseworld.com
 */
 
 function my_login_theme_style() {
@@ -27,6 +27,5 @@ function wpse17709_gettext( $translation, $text )
     }
     return $translation;
 }
-
 
 ?>

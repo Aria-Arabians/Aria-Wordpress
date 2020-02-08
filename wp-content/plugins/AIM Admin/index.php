@@ -4,9 +4,9 @@
 Plugin Name: Aria International Manager - Admin Theme 
 Plugin URI: n/a
 Description: Admin theme for Horse management
-Author: Andrew Farr
-Version: 1.0
-Author URI: http://adwtt.com
+Author: Arabian Horse World
+Version: 2.0
+Author URI: http://arabianhorseworld.com
 */
 
 function my_admin_theme_style() {
